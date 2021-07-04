@@ -10,6 +10,11 @@ I will introduce the analysis outcomes in the following section, and I will prov
 ### There are total votes of 369,711
 I was able to generate this outcome by using the following pieces of codes, where I created a variable and assigned to it the value of zero (0), then I used a (For) loop that goes over all the rows in the sheet, except the header (it’s part of the script to ignore the first row), and it increases the variable by 1 for each vote(row) that part of the loop.
 ### we can see that we have three counties, and the results for those counties came as following:
+
+![](https://github.com/ALEIN3/Election_Analysis/blob/main/Resources/Total%20votes.png)
+
+![](https://github.com/ALEIN3/Election_Analysis/blob/main/Resources/Total%20votes%202.png)
+
 #### Jefferson: 10.5% (38,855)
 We can translate the numbers above as following, Jefferson County received 38,855 votes out of the total votes, which equal 369,711 votes, and that means the votes of Jefferson County equal to 10.5% of the total votes 
 #### Denver:82.8% (306,055)
@@ -19,6 +24,8 @@ We can translate the numbers above as following, Arapahoe County received 24,801
 ### Based on the previous outcomes, we found that the county of Denver has the highest number of votes 
 I created two variables. The first variable is (Counties_votes), and I assigned to it Zero value (0), the second one is (County_with_highest_count), and assigned to it an empty value (“ ”), so it will be recognized as a string. The next step was starting a loop to go over the names of the counties which represent the keys in the County_votes dictionary that I created in the previous step, to get back the count of votes for each county, which represent the values from the County_votes dictionary, and they will be under the county_count variable. The next step will be creating a conditional statement to compare the county_count with the Counties_votes, then assign the highest value to the Counties_votes variable and assign the county's name to the County_with_highest_count. By the end of the loop, we will end up with the highest count of votes among all the counties which was assigned to the Counties_votes variable, and the name of that county was assigned to the County_with_highest_count variable.
 I can show here a few pieces of the code that I used for this outcome as following in the images
+
+![](https://github.com/ALEIN3/Election_Analysis/blob/main/Resources/The%20county%20with%20the%20highest%20votes.png)
 
 ### after checking the counties results, it is time to check the candidates' results, we have here three candidates and the results for those candidates came as following:
 
