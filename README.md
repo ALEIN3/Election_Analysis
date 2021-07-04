@@ -28,13 +28,10 @@ We can translate the numbers above as following, Charles Casper Stockham receive
 #### Diana DeGette: 73.8% (272,892)
 We can translate the numbers above as following, Diana DeGette received 272,892 votes out of the total votes, which equal 369,711 votes, and that means the votes of Diana DeGette equal to 73.8% of the total votes
 
-
-
-
 #### Raymon Anthony Doane: 3.1% (11,606)
 We can translate the numbers above as following, Raymon Anthony Doane received 11,606 votes out of the total votes, which equal 369,711 votes, and that means the votes of Raymon Anthony Doane equal to 3.1% of the total votes	
 
-### based on the above candidates’ outcomes, we can say that Diana DeGette won the election race with 73.8% of the votes, which equals 272,892 votes.
+### Based on the above candidates’ outcomes, we can say that Diana DeGette won the election race with 73.8% of the votes, which equals 272,892 votes.
 
 # Election-Audit Summary:
 At the end of this audit, and after analyzing the data that we received from the election commission department, we found plenty of helpful, clean, and neat results. The main factor in reaching those outcomes is the programing language that we used, and it is Python.
