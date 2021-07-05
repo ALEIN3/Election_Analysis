@@ -39,5 +39,12 @@ We can translate the numbers above as following, Raymon Anthony Doane received 1
 At the end of this audit, and after analyzing the data that we received from the election commission department, we found plenty of helpful, clean, and neat results. The main factor in reaching those outcomes is the programing language that we used, and it is Python.
 I recommend to the election commission department to consider the following script to audit future elections data. The reason for my proposal is how easy the use of this script is. 
 I will explain how we can change few entries, and you will be able to use it for many other datasets with the same structure
--We can change the file that we read the data from in the script and can get the same analysis for the new dataset, plus we can do the same for the file that we are writing to, 
--The flexibility does not stop at this level. So, for example, if we have more data like more columns included in the dataset, we can change a small number in the script, and that will change the column that we pull the data from, and we still can get the same analysis.
+-In the script we can change the file that we read the data from, and still apply the same analysis for the new dataset, plus we can do the same for the file that we are writing to by changing the files in the image below
+
+![](https://github.com/ALEIN3/Election_Analysis/blob/main/Resources/Reading_Writing_files.png)
+
+-The flexibility does not stop at this level. So, for example, if we have more data like more columns included in the dataset, we can change a small number in the script, and that will change the column that we pull the data from, and we still can get the same analysis, like changing the number of the items in the row list to get the data from another column, please check the following image
+
+![](https://github.com/ALEIN3/Election_Analysis/blob/main/Resources/Change_the_column.png)
+
+
